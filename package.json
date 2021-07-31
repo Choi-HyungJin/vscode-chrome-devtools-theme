@@ -1,0 +1,23 @@
+{
+  "name": "chrome-devtool-theme",
+  "displayName": "Chrome Developer Tools",
+  "description": "chrome-devtool-theme",
+  "version": "0.0.1",
+  "publisher": "optimizion",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": "https://github.com/optimizion/vscode-chrome-devtools-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chrome Devtool",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Chrome Devtool-color-theme.json"
+      }
+    ]
+  }
+}
